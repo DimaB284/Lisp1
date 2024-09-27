@@ -26,4 +26,4 @@
 ;2 task
 (defvar second-list nil)
 (defvar mini-list nil)
-(setq mini-list '(a 2 1) second-list (list mini-list 'b (cdr mini-list) 'c))
+(setq mini-list '(A 2 1) second-list (list mini-list 'B (cdr mini-list) 'C))
