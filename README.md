@@ -81,7 +81,7 @@ T
 SECOND-LIST
 [2]> (defvar mini-list nil)
 MINI-LIST
-[3]> (setq mini-list '(a 2 1) second-list (list mini-list 'b (cdr mini-list) 'c))
+[3]> (setq mini-list '(A 2 1) second-list (list mini-list 'B (cdr mini-list) 'C))
 ((A 2 1) B (2 1) C)
 ```
 
