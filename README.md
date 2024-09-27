@@ -21,7 +21,7 @@
     7. Використайте на елементах списку 2-3 інших предикати з розглянутих у розділі 4 навчального посібника.
     8. Об'єднайте створений список з одним із його непустих підсписків. Для цього використайте функцію APPEND.
 
-```lisp
+```
 ;create list
 [1]> (setq first-list (cons 'A (list 123 (list 'B 4) () "hello")))
 (A 123 (B 4) NIL "hello")
@@ -74,7 +74,9 @@ T
 <p align="center">
 <img src="Lab-1-variant-2.png">
 </p>
-```lisp
+
+```
+
 [1]> (defvar second-list nil)
 SECOND-LIST
 [2]> (defvar mini-list nil)
